@@ -44,12 +44,20 @@
 	<link rel="stylesheet" href="css/cd-hero.css">
 	<!-- Style Swicther -->
 	<link id="style-switch" href="css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+	<!-- Lazy load js files -->
+    <script src="https://www.happynessfactory.in/assets/js/jquery.lazy.min.js"></script>
+    <script src="https://www.happynessfactory.in/assets/js/jquery.lazy.plugins.min.js"></script>
+  <!--   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script> -->
+
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+		<script src="js\jquery.lazy.js"></script>
+		<script src="js\jquery.lazy.js"></script>
 
 </head>
 
@@ -82,7 +90,6 @@
 						<li class="active"><a href="index-4.html">Home </a></li>
 						<li><a href="about-us.html">About Us</a></li>
 						<li><a href="service.html">Services</a></li>
-						 <li><a href="career.html">Career</a></li>
 						 <li><a href="blog.html">Blog </a></li>
 						<li><a href="contact.html">Contact</a></li>
 
@@ -162,76 +169,51 @@
 		</div><!-- /carousel -->
     </section>
     <!--/ Slider end -->
-		<section id="main-container">
-			<div class="container">
+			<!-- about-us -->
+			<section id="main-container">
+				<div class="container">
 
-				<!-- Services -->
+					<!-- Company Profile -->
 
-				<div class="row">
-					<div class="col-md-12 heading">
-						<span class="title-icon classic pull-center"><i class="fa fa-cogs"></i></span>
-						<h2 class="title classic">What Makes a Great Financial Plan?</h2>
-					</div>
+					<div class="row">
+						<div class="col-md-12 heading text-center">
+							<h2 class="title2">About Our Company
+							</h2>
+						</div>
+					</div><!-- Title row end -->
+
+					<div class="row about-wrapper-bottom">
+						<div class="col-md-6 ts-padding about-img" style="height:374px;background:url(images/pages/about-us.png) 50% 50% / cover no-repeat;">
+						</div><!--/ About image end -->
+						<div class="col-md-6 ts-padding about-message">
+							<p class="text-green">We aim to build a Happy Rich World by helping people make purposeful financial decisions.</p>
+							<p>Adding a unique twist to the familiar concept of financial planning, we seek to understand what makes you happy.</p>
+							<p>HF then works to help you plan, save, invest and be disciplined in achieving your financial goals, so that you can stop worrying about money and lead a Happy Rich life!</p>
+
+						</div><!--/ About message end -->
+					</div><!--/ Content row end -->
+
 				</div>
+			</section>
+			<!-- how it works -->
+			<!-- How it works section -->
+    <div class="how-it-works" data-aos="fade-in">
+      <div class="howWorks">
+        <div><img src="https://www.happynessfactory.in/assets/temp/howitworks/HowItWorks_01.jpg"></div>
+        <div><img class="lazy" src="" data-src="https://www.happynessfactory.in/assets/temp/howitworks/HowItWorks_02.jpg"></div>
+        <div><img class="lazy" src="" data-src="https://www.happynessfactory.in/assets/temp/howitworks/HowItWorks_03.jpg"></div>
+        <div><img class="lazy" src="" data-src="https://www.happynessfactory.in/assets/temp/howitworks/HowItWorks_04.jpg"></div>
+        <div><img class="lazy" src="" data-src="https://www.happynessfactory.in/assets/temp/howitworks/HowItWorks_05.jpg"></div>
+        <div><img class="lazy" src="" data-src="https://www.happynessfactory.in/assets/temp/howitworks/HowItWorks_06.jpg"></div>
+        <div><img class="lazy" src="" data-src="https://www.happynessfactory.in/assets/temp/howitworks/HowItWorks_07.jpg"></div>
+        <div><img class="lazy" src="" data-src="https://www.happynessfactory.in/assets/temp/howitworks/HowItWorks_08.jpg"></div>
+        <div><img class="lazy" src="" data-src="https://www.happynessfactory.in/assets/temp/howitworks/HowItWorks_09.jpg"></div>
+      </div>
+    </div>
+    <!-- Ends how it works section -->
 
-				<div class="row">
-					<div class="col-md-18">
-						<div class="col-md-4 col-sm-3 wow fadeInDown" data-wow-delay=".5s">
-							<div class="service-content text-center">
-								<span class="service-icon icon-pentagon"><i class="fa fa-tachometer"></i></span>
-								<h3>Risk Assessment</h3>
-								<p>We understand that no two people are alike when it comes to investing. Risk assessment is the foundation upon which investment portfolios are built & provide clear insight on the investment instruments optimal for your requirements.</p>
-							</div>
-						</div><!--/ End first service -->
-
-						<div class="col-md-4 col-sm-3 wow fadeInDown" data-wow-delay=".8s" >
-							<div class="service-content text-center">
-								<span class="service-icon icon-pentagon"><i class="fa fa-android"></i></span>
-								<h3>Asset Allocation</h3>
-								<p>We design your optimal split between equity & debt funds, based on a combination of your unique situation & leading market indicators. The asset allocation is closely monitored to create the right balance of risk vs return for your portfolio.</p>
-							</div>
-
-						</div><!--/ End Second service -->
-						<div class="col-md-4 col-sm-3 wow fadeInDown" data-wow-delay=".8s" >
-							<div class="service-content text-center">
-								<span class="service-icon icon-pentagon"><i class="fa fa-android"></i></span>
-								<h3>Goal Mapping</h3>
-								<p>Aligning goals to your investments makes it 300% more likely for you to meet them. We use a high-level technology & review platform along with our proprietary goal report, so that you’re always on track to meet your goals</p>
-							</div>
-
-						</div><!--/ End third service -->
-
-					</div>
-				</div><!-- Content 1st row end -->
-
-				<div class="gap-40"></div>
-
-				<div class="row">
-					<div class="col-md-18">
-						<div class="col-md-6 col-sm-3 wow fadeInDown" data-wow-delay=".5s">
-							<div class="service-content text-center">
-								<span class="service-icon icon-pentagon"><i class="fa fa-bar-chart"></i></span>
-								<h3>Customized Roadmap</h3>
-								<p>We draft a detailed financial report based on your comprehensive discussion with your Financial Planner; this serves as a critical roadmap for meeting your life’s objectives & provides absolute clarity on your investment purpose.</p>
-							</div>
-						</div><!--/ End first service -->
-
-						<div class="col-md-6 col-sm-3 wow fadeInDown" data-wow-delay=".8s" >
-							<div class="service-content text-center">
-								<span class="service-icon icon-pentagon"><i class="fa fa-bicycle"></i></span>
-								<h3>Portfolio Review</h3>
-								<p>We conduct periodic reviews on your investment portfolio; weeding out laggards, optimizing your asset allocation & revisiting your life goals in the process. Reviews make a critical difference in reducing risk & return out performance of your investments.</p>
-							</div>
-
-						</div><!--/ End Second service -->
-
-					</div>
-				</div><!-- Content 2nd row end -->
-
-				<!-- Services end -->
-			</Section>
     <!-- Counter Strat -->
-	<section class="ts_counter no-padding">
+	<!-- <section class="ts_counter no-padding">
 		<div class="container-fluid">
 			<div class="row facts-wrapper wow fadeInLeft text-center">
 				<div class="facts one col-md-3 col-sm-6">
@@ -266,9 +248,9 @@
 					<h3>Awwards</h3>
 				</div>
 
-			</div>
-		</div><!--/ Container end -->
-    </section><!--/ Counter end -->
+			</div> -->
+		<!-- </div><!--/ Container end --> -->
+    <!-- </section><!--/ Counter end --> -->
 
 	<!-- Team start -->
 	<section id="team" class="team">
@@ -281,27 +263,8 @@
 			</div><!-- Title row end -->
 
 			<div class="row text-center">
-				<div class="col-md-3 col-sm-6">
-					<div class="team wow slideInLeft">
-						<div class="img-hexagon">
-							<img src="images/team/team1.jpg" alt="">
-							<span class="img-top"></span>
-							<span class="img-bottom"></span>
-						</div>
-						<div class="team-content">
-							<h3>Vosgi Varduhi</h3>
-							<p>Web Designer</p>
-							<div class="team-social">
-								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
-								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
-								<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
-								<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
-								<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
-							</div>
-						</div>
-					</div>
-				</div><!--/ Team 1 end -->
-				<div class="col-md-3 col-sm-6">
+
+				<div class="col-md-6">
 					<div class="team wow slideInLeft">
 						<div class="img-hexagon">
 							<img src="images/team/team2.jpg" alt="">
@@ -321,27 +284,7 @@
 						</div>
 					</div>
 				</div><!--/ Team 2 end -->
-				<div class="col-md-3 col-sm-6">
-					<div class="team wow slideInRight">
-						<div class="img-hexagon">
-							<img src="images/team/team3.jpg" alt="">
-							<span class="img-top"></span>
-							<span class="img-bottom"></span>
-						</div>
-						<div class="team-content">
-							<h3>Taline Voski</h3>
-							<p>Web Designer</p>
-							<div class="team-social">
-								<a class="fb" href="#"><i class="fa fa-facebook"></i></a>
-								<a class="twt" href="#"><i class="fa fa-twitter"></i></a>
-								<a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
-								<a class="linkdin" href="#"><i class="fa fa-linkedin"></i></a>
-								<a class="dribble" href="#"><i class="fa fa-dribbble"></i></a>
-							</div>
-						</div>
-					</div>
-				</div><!--/ Team 3 end -->
-				<div class="col-md-3 col-sm-6">
+				<div class="col-md-6">
 					<div class="team animate wow slideInRight">
 						<div class="img-hexagon">
 							<img src="images/team/team4.jpg" alt="">
@@ -436,28 +379,6 @@
 	</section><!-- Newsletter end -->
 
 
-	<!-- Map start here -->
-	<section id="map-wrapper" class="no-padding">
-		<div class="container">
-			<div class="contact-info-inner">
-    			<h3>Contact Info</h3>
-	    		<div><i class="fa fa-map-marker pull-left"></i>
-	    			<p><strong>Address</strong>1102 Saint Marys, Junction City, KS</p>
-	    		</div>
-	    		<div><i class="fa fa-phone pull-left"></i>
-	    			<p><strong>Phone</strong>+(785) 238-4131</p>
-	    		</div>
-	    		<div><i class="fa fa-envelope-o pull-left"></i>
-	    			<p><strong>Email</strong>info@bizcraft.com</p>
-	    		</div>
-	    		<div><i class="fa fa-compass pull-left"></i>
-	    			<p><strong>Office Hours</strong>Mon - Friday, 9:00 - 5:00</p>
-	    		</div>
-
-			</div>
-	    </div>
-		<div class="map" id="map"></div>
-	</section><!--/ Map end here -->
 
 
 	<!-- Footer start -->
